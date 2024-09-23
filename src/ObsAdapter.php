@@ -9,7 +9,7 @@ use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Traits\Conditionable;
 use League\Flysystem\FilesystemOperator;
 use Obs\ObsClient;
-use Iceqi\Flysystem\Obs\ObsAdapter as Adapter;
+use Zing\Flysystem\Obs\ObsAdapter as Adapter;
 
 /**
  * FilesystemAdapter for OBS.
@@ -19,7 +19,7 @@ class ObsAdapter extends FilesystemAdapter
     use Conditionable;
 
     /**
-     * @var \Iceqi\Flysystem\Obs\ObsAdapter
+     * @var \Zing\Flysystem\Obs\ObsAdapter
      */
     protected $adapter;
 
@@ -122,10 +122,7 @@ class ObsAdapter extends FilesystemAdapter
     public function temporaryUploadUrl($path, $expiration, array $options = []): array
     {
         $expires = $expiration->getTimestamp() - time();
-        $headers = $options["headers"]  ??[];
-        if(isset($options["headers"] ) && $options["headers"] ){
-            unset($options["headers"] );
-        }
+
         /** @var array{SignedUrl: string, ActualSignedRequestHeaders: array<string, string>} $model */
         $model = $this->obsClient->createSignedUrl([
             'Method' => 'PUT',
@@ -133,7 +130,6 @@ class ObsAdapter extends FilesystemAdapter
             'Key' => $this->prefixer->prefixPath($path),
             'Expires' => $expires,
             'QueryParams' => $options,
-            "Headers" =>$headers
         ]);
         $uri = new Uri($model['SignedUrl']);
 

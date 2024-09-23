@@ -13,7 +13,7 @@ use League\Flysystem\PathPrefixing\PathPrefixedAdapter;
 use League\Flysystem\ReadOnly\ReadOnlyFilesystemAdapter;
 use League\Flysystem\Visibility;
 use Obs\ObsClient;
-use Iceqi\Flysystem\Obs\ObsAdapter as Adapter;
+use Zing\Flysystem\Obs\ObsAdapter as Adapter;
 use Zing\Flysystem\Obs\PortableVisibilityConverter;
 
 /**
