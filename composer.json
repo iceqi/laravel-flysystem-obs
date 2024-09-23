@@ -40,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Iceqi\\LaravelFlysystem\\Obs\\": "src"
+            "IceQi\\LaravelFlysystem\\Obs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Iceqi\\LaravelFlysystem\\Obs\\Tests\\": "tests"
+            "IceQi\\LaravelFlysystem\\Obs\\Tests\\": "tests"
         }
     },
     "scripts": {

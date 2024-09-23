@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Iceqi\LaravelFlysystem\Obs;
+namespace IceQi\LaravelFlysystem\Obs;
 
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Arr;

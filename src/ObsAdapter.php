@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Iceqi\LaravelFlysystem\Obs;
+namespace IceQi\LaravelFlysystem\Obs;
 
 use GuzzleHttp\Psr7\Uri;
 use Illuminate\Filesystem\FilesystemAdapter;
