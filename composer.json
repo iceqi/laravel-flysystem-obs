@@ -40,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Zing\\LaravelFlysystem\\Obs\\": "src"
+            "Iceqi\\LaravelFlysystem\\Obs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zing\\LaravelFlysystem\\Obs\\Tests\\": "tests"
+            "Iceqi\\LaravelFlysystem\\Obs\\Tests\\": "tests"
         }
     },
     "scripts": {

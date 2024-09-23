@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use Symplify\EasyCodingStandard\Config\ECSConfig;
-use Zing\CodingStandard\Set\ECSSetList;
+use Iceqi\CodingStandard\Set\ECSSetList;
 
 return static function (ECSConfig $ecsConfig): void {
     $ecsConfig->sets([ECSSetList::PHP_80, ECSSetList::CUSTOM]);

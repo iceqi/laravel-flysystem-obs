@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Zing\LaravelFlysystem\Obs\Tests;
+namespace Iceqi\LaravelFlysystem\Obs\Tests;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
 use League\Flysystem\UnableToWriteFile;
-use Zing\Flysystem\Obs\ObsAdapter;
+use Iceqi\Flysystem\Obs\ObsAdapter;
 
 /**
  * @internal

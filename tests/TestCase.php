@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Zing\LaravelFlysystem\Obs\Tests;
+namespace Iceqi\LaravelFlysystem\Obs\Tests;
 
 use Illuminate\Support\Facades\Config;
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Zing\LaravelFlysystem\Obs\ObsServiceProvider;
+use Iceqi\LaravelFlysystem\Obs\ObsServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Zing\LaravelFlysystem\Obs;
+namespace Iceqi\LaravelFlysystem\Obs;
 
 use GuzzleHttp\Psr7\Uri;
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Traits\Conditionable;
 use League\Flysystem\FilesystemOperator;
 use Obs\ObsClient;
-use Zing\Flysystem\Obs\ObsAdapter as Adapter;
+use Iceqi\Flysystem\Obs\ObsAdapter as Adapter;
 
 /**
  * FilesystemAdapter for OBS.
@@ -19,7 +19,7 @@ class ObsAdapter extends FilesystemAdapter
     use Conditionable;
 
     /**
-     * @var \Zing\Flysystem\Obs\ObsAdapter
+     * @var \Iceqi\Flysystem\Obs\ObsAdapter
      */
     protected $adapter;
 

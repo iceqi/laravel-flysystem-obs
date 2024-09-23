@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Zing\LaravelFlysystem\Obs;
+namespace Iceqi\LaravelFlysystem\Obs;
 
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Arr;
@@ -13,8 +13,8 @@ use League\Flysystem\PathPrefixing\PathPrefixedAdapter;
 use League\Flysystem\ReadOnly\ReadOnlyFilesystemAdapter;
 use League\Flysystem\Visibility;
 use Obs\ObsClient;
-use Zing\Flysystem\Obs\ObsAdapter as Adapter;
-use Zing\Flysystem\Obs\PortableVisibilityConverter;
+use Iceqi\Flysystem\Obs\ObsAdapter as Adapter;
+use Iceqi\Flysystem\Obs\PortableVisibilityConverter;
 
 /**
  * ServiceProvider for OBS.
