@@ -14,7 +14,7 @@ use League\Flysystem\ReadOnly\ReadOnlyFilesystemAdapter;
 use League\Flysystem\Visibility;
 use Obs\ObsClient;
 use Iceqi\Flysystem\Obs\ObsAdapter as Adapter;
-use Iceqi\Flysystem\Obs\PortableVisibilityConverter;
+use Zing\Flysystem\Obs\PortableVisibilityConverter;
 
 /**
  * ServiceProvider for OBS.
