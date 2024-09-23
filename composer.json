@@ -1,18 +1,18 @@
 {
-    "name": "zing/laravel-flysystem-obs",
+    "name": "iceqi/laravel-flysystem-obs",
     "description": "Flysystem Adapter for OBS",
     "keywords": ["obs", "laravel", "flysystem", "filesystem", "storage", "file", "files"],
     "license": "MIT",
-    "homepage": "https://github.com/zingimmick/laravel-flysystem-obs",
+    "homepage": "https://github.com/iceqi/laravel-flysystem-obs",
     "support": {
-        "issues": "https://github.com/zingimmick/laravel-flysystem-obs/issues",
-        "source": "https://github.com/zingimmick/laravel-flysystem-obs"
+        "issues": "https://github.com/iceqi/laravel-flysystem-obs/issues",
+        "source": "https://github.com/iceqi/laravel-flysystem-obs"
     },
     "authors": [
         {
-            "name": "zingimmick",
-            "email": "zingimmick@outlook.com",
-            "homepage": "https://github.com/zingimmick"
+            "name": "iceqi",
+            "email": "95857548@qq.com",
+            "homepage": "https://github.com/iceqi"
         }
     ],
     "config": {
@@ -71,7 +71,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zing\\LaravelFlysystem\\Obs\\ObsServiceProvider"
+                "IceQi\\LaravelFlysystem\\Obs\\ObsServiceProvider"
             ]
         }
     },
